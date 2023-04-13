@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="text"
+            type="String" />
+    </data>
+<com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.MaterialComponents.Chip.Entry"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@{text}"
+    app:chipBackgroundColor="#ff0000"
+    app:chipIcon="@drawable/ic_baseline_cloud_24"
+    app:closeIcon="@drawable/ic_baseline_close_24">
+
+</com.google.android.material.chip.Chip>
+</layout>
